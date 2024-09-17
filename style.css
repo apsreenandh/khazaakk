@@ -1,5 +1,9 @@
-body{
+*{
     margin: 0;
+    padding: 0;
+}
+body{
+   
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 100%;
 }
@@ -35,7 +39,7 @@ main{
     background-image:url("images/banner_1.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 100% 50%;
+    background-position: center;
     opacity: 0.7;
     width: auto;
     height: 400px;
@@ -169,6 +173,10 @@ footer .heading{
     .banner{
         background-position-x: 80%;
     }
+    .banner_text{
+        text-align: left;
+        padding-top: 150px;  
+    }
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
@@ -177,7 +185,7 @@ footer .heading{
         grid-template-columns: repeat(2,1fr);
     }
     .banner{
-        background-position-x: 88%;
+        background-position-x: 99%;
     }
   } 
   
@@ -199,4 +207,4 @@ footer .heading{
     .banner{
         background-position-x: 86%;
     }
-  }
+  } 
